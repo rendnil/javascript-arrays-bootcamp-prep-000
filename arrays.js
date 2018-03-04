@@ -8,8 +8,8 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return array.unshift(element)
-  console.log(array)
+  array.unshift(element)
+  return array
   
 }
 destructivelyAddElementToBeginningOfArray([1], "too")
