@@ -12,4 +12,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
   
 }
-destructivelyAddElementToBeginningOfArray([1], "too")
